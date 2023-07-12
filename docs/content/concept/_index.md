@@ -16,4 +16,4 @@ weight: 20
 
 ## Принципиальная схема
 
-![Схема PlantUML](http://www.plantuml.com/plantuml/proxy?cache=no&src={{< ref "/plantuml/concept/1.puml" >}})
+![Схема PlantUML](http://www.plantuml.com/plantuml/proxy?cache=no&src=<MY_BASEURL>/plantuml/concept/1.puml")
