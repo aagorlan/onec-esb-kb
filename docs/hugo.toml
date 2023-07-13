@@ -12,6 +12,8 @@ defaultContentLanguage = "ru"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+enableGitInfo = true
+
 [params]
 
     # Source Code repository section
