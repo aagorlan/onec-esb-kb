@@ -70,7 +70,7 @@ enableGitInfo = true
     #algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 	
 	#Дополнительные параметры
-	PlantUML = "http://www.plantuml.com/plantuml/proxy?cache=no&src=https://aagorlan.github.io/onec-esb-kb/"
+	PlantUML = "http://www.plantuml.com/plantuml/proxy?cache=no&src=https://aagorlan.github.io/onec-esb-kb"
 
 # Global menu section
 # See https://gohugo.io/content-management/menus/
