@@ -1,0 +1,26 @@
+{{- define "main" -}}
+<h1>Записки архитектора</h1>
+{{- .Content -}}
+{{ $concept := ref . "/categories" }}
+{{ $tags := ref . "/tags" }}
+{{ range .Pages }}
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ range .Params.categories }}
+    <a class="button-cat" href="{{ $concept }}{{ . }}">{{ . }}</a>
+    {{ end }}<br>
+        <div class="content">
+            {{ .Description }}
+        </div>
+	{{ $author := index .Site.Data.authors .Params.author }}
+	<span style="font-size: 80%;">{{ $author.name }} | Создан <time>{{ .PublishDate | time.Format ":date_long" }}</time> | Изменен <time>{{ .Lastmod | time.Format ":date_long" }}</time></span><br>
+{{if .Params.tags }}
+<span style="font-size: 80%;">Теги:</span> 
+    {{ range $index, $tag := .Params.tags }}
+        <a class="button-tag" href="{{ $tags }}{{ $tag | urlize }}/">{{ $tag }}</a>
+    {{ end }}
+{{ end }}
+	<p>
+{{ end }}
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{- end -}}

@@ -1,0 +1,13 @@
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+{{ $tags := ref . "/tags" }}
+{{if .Params.tags }}
+<span style="font-size: 80%;">Теги:</span> 
+    {{ range $index, $tag := .Params.tags }}
+        <a class="button-tag" href="{{ $tags }}{{ $tag | urlize }}/">{{ $tag }}</a>
+    {{ end }}
+{{ end }}
+{{- .Content -}}
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{- end -}}
