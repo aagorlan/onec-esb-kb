@@ -258,7 +258,7 @@
 			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
 			<Subsystem>БазовыеФункции</Subsystem>
 			<CommonModule>ОбновлениеКонфигурацииВызовСервера</CommonModule>
-			<CommonModule>ОбработчикиОбновленияСервер</CommonModule>
+			<CommonModule>НастройкаОбновленияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<Constant>ТекущаяВерсияДанных</Constant>
 			<Catalog>ЭтапыКонтуров</Catalog>

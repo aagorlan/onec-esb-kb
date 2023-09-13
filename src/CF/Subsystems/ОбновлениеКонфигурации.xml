@@ -19,7 +19,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеКонфигурацииВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТекущаяВерсияДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыполненныеОбработчикиОбновления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбработчикиОбновленияСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаОбновленияСервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
