@@ -37,8 +37,8 @@ jobs:
       - name: Анализ в SonarQube (branch)
         if: github.event_name == 'push'
         run: sonar-scanner
-            -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
-            -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }}
             -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
 
       # Анализ проекта в SonarQube (PR)
@@ -46,8 +46,8 @@ jobs:
       - name: Анализ в SonarQube (pull-request)
         if: github.event_name == 'pull_request'
         run: sonar-scanner
-            -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
-            -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }}
+            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }}
             -Dsonar.branch.name=${{ steps.extract_branch.outputs.branch }}
             -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
             -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
