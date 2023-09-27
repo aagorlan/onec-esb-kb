@@ -23,6 +23,12 @@
 			<ContextMenu name="ПутьКРепозиториюКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ПутьКРепозиториюРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="ПротоколСоединения" id="42">
+			<DataPath>Объект.ПротоколСоединения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПротоколСоединенияКонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="ПротоколСоединенияРасширеннаяПодсказка" id="44"/>
+		</InputField>
 		<CheckBoxField name="Инициализирован" id="45">
 			<DataPath>Объект.Инициализирован</DataPath>
 			<Enabled>false</Enabled>
@@ -30,12 +36,6 @@
 			<ContextMenu name="ИнициализированКонтекстноеМеню" id="46"/>
 			<ExtendedTooltip name="ИнициализированРасширеннаяПодсказка" id="47"/>
 		</CheckBoxField>
-		<InputField name="ПротоколСоединения" id="42">
-			<DataPath>Объект.ПротоколСоединения</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПротоколСоединенияКонтекстноеМеню" id="43"/>
-			<ExtendedTooltip name="ПротоколСоединенияРасширеннаяПодсказка" id="44"/>
-		</InputField>
 		<InputField name="ПутьЛокальногоХранения" id="10">
 			<DataPath>Объект.ПутьЛокальногоХранения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
