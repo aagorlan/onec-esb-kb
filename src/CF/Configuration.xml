@@ -263,7 +263,7 @@
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>Git_ОбщегоНазначения</CommonModule>
 			<CommonModule>SDS_ОбщегоНазначения</CommonModule>
-			<CommonModule>Git_Привилегированный</CommonModule>
+			<CommonModule>Git_ПолныеПрава</CommonModule>
 			<Constant>ТекущаяВерсияДанных</Constant>
 			<Constant>Git_ПутьКИсполняемомуФайлу</Constant>
 			<Catalog>ЭтапыКонтуров</Catalog>
