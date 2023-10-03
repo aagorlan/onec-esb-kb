@@ -257,15 +257,24 @@
 			<Subsystem>ОбновлениеКонфигурации</Subsystem>
 			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
 			<Subsystem>БазовыеФункции</Subsystem>
+			<Subsystem>Git_Интеграция</Subsystem>
 			<CommonModule>ОбновлениеКонфигурацииВызовСервера</CommonModule>
 			<CommonModule>НастройкаОбновленияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
+			<CommonModule>Git_ОбщегоНазначения</CommonModule>
+			<CommonModule>SDS_ОбщегоНазначения</CommonModule>
+			<CommonModule>Git_ПолныеПрава</CommonModule>
 			<Constant>ТекущаяВерсияДанных</Constant>
+			<Constant>Git_ПутьКИсполняемомуФайлу</Constant>
 			<Catalog>ЭтапыКонтуров</Catalog>
 			<Catalog>Контуры</Catalog>
+			<Catalog>Git_НастройкиРепозиториев</Catalog>
 			<Enum>ТипыКонтуров</Enum>
 			<Enum>СостоянияКонтуров</Enum>
+			<Enum>Git_СпособыАвторизации</Enum>
+			<Enum>Git_ПротоколыСоединения</Enum>
 			<InformationRegister>ВыполненныеОбработчикиОбновления</InformationRegister>
+			<InformationRegister>SDS_БезопасноеХранилищеДанных</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
