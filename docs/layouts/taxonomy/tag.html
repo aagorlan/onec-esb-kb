@@ -1,0 +1,27 @@
+{{- define "main" -}}
+{{- .Content -}}
+{{ $concept := ref . "/concept" }}
+{{ $tags := ref . "/tags" }}
+{{ range .Data.Pages }}
+    {{ range .Params.categories }}
+    <a class="button-cat" href="{{ $concept }}{{ . }}">{{ . }}</a>
+    {{ end }}
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+        <div class="content">
+            {{ .Description }}
+        </div>
+	{{ $author := index .Site.Data.authors .Params.author }}
+	<span style="font-size: 80%;">{{ $author.name }} | Создан <time>{{ .PublishDate | time.Format ":date_long" }}</time> | Изменен <time>{{ .Lastmod | time.Format ":date_long" }}</time></span><br>
+{{if .Params.tags }}
+<span style="font-size: 80%;">Теги:</span> 
+    {{ range $index, $tag := .Params.tags }}
+        <a class="button-tag" href="{{ $tags }}{{ $tag | urlize }}/">{{ $tag }}</a>
+    {{ end }}
+{{ end }}
+	<p>
+Перейти:<br>
+{{ end }}
+  {{ range .Site.Taxonomies.tags }}
+    <a class="button-tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><a class="button-num" href="{{ .Page.Permalink }}">{{ .Count }}</a>
+  {{ end }}
+{{- end -}}
