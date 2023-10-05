@@ -269,6 +269,8 @@
 			<Catalog>ЭтапыКонтуров</Catalog>
 			<Catalog>Контуры</Catalog>
 			<Catalog>Git_НастройкиРепозиториев</Catalog>
+			<Catalog>ИнформационныеСистемы</Catalog>
+			<Catalog>ИнформационныеРесурсы</Catalog>
 			<Enum>ТипыКонтуров</Enum>
 			<Enum>СостоянияКонтуров</Enum>
 			<Enum>Git_СпособыАвторизации</Enum>
