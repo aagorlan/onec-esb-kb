@@ -267,6 +267,8 @@
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>РГПолныеПрава</CommonModule>
 			<CommonModule>КШДЯдроВызовСервера</CommonModule>
+			<CommonModule>КШДРегламентныеЗадания</CommonModule>
+			<ScheduledJob>КШДПроверкаНастройкаКонтуров</ScheduledJob>
 			<Constant>ОКТекущаяВерсияДанных</Constant>
 			<Constant>РГПутьКИсполняемомуФайлу</Constant>
 			<Constant>КШДРасположениеУзла</Constant>

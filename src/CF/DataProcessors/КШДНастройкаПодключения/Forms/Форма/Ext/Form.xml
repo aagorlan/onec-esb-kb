@@ -99,7 +99,6 @@
 											<v8:content>Подключение не актуально</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Group>AlwaysHorizontal</Group>
 									<ExtendedTooltip name="ПодключениеНеАктуальноРасширеннаяПодсказка" id="15"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьПодключениеНеАктуально" id="16">

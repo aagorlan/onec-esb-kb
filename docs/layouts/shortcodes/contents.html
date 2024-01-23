@@ -1,0 +1,8 @@
+{{ $tags := ref . "/tags" }}
+{{ range .Page.Pages }}
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="content">
+            {{ .Description }}
+        </div>
+	<p>
+{{ end }}
