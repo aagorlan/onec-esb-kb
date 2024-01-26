@@ -1,0 +1,11 @@
+{
+    "name": "Русецкий Владимир",
+    "_bio": "Nic Raboy is an advocate of modern web and mobile development technologies. He has experience in Java, JavaScript, Golang and a variety of frameworks such as Angular, NativeScript, and Apache Cordova. Nic writes about his development experiences related to making web and mobile development easier to understand.",
+    "_image": "/media/authors/nraboy.png",
+    "weight": 2,
+    "social": {
+        "_twitter": "nraboy",
+        "github": "https://github.com/rusetskiy",
+        "_website": "https://www.nraboy.com"
+    }
+}

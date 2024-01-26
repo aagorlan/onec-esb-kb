@@ -32,11 +32,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>СистемаУправленияДанными</Name>
+			<Name>ЕдинаяСистемаУправленияДанными</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Система управления данными</v8:content>
+					<v8:content>Единая система управления данными (UDM)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -254,27 +254,32 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>КорпоративнаяШинаДанных</Subsystem>
 			<Subsystem>ОбновлениеКонфигурации</Subsystem>
-			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
-			<Subsystem>БазовыеФункции</Subsystem>
-			<Subsystem>Git_Интеграция</Subsystem>
-			<CommonModule>ОбновлениеКонфигурацииВызовСервера</CommonModule>
-			<CommonModule>НастройкаОбновленияСервер</CommonModule>
+			<Subsystem>РепозиторийGit</Subsystem>
+			<Subsystem>ФункцииБСП</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
+			<SessionParameter>КШДЯдроПодключениеАктуально</SessionParameter>
+			<CommonModule>ОКВызовСервера</CommonModule>
+			<CommonModule>ОКНастройкаОбновленияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
-			<CommonModule>Git_ОбщегоНазначения</CommonModule>
-			<CommonModule>SDS_ОбщегоНазначения</CommonModule>
-			<CommonModule>Git_ПолныеПрава</CommonModule>
-			<Constant>ТекущаяВерсияДанных</Constant>
-			<Constant>Git_ПутьКИсполняемомуФайлу</Constant>
-			<Catalog>ЭтапыКонтуров</Catalog>
-			<Catalog>Контуры</Catalog>
-			<Catalog>Git_НастройкиРепозиториев</Catalog>
+			<CommonModule>РГОбщегоНазначения</CommonModule>
+			<CommonModule>ОбщегоНазначения</CommonModule>
+			<CommonModule>РГПолныеПрава</CommonModule>
+			<CommonModule>КШДЯдроВызовСервера</CommonModule>
+			<CommonModule>КШДРегламентныеЗадания</CommonModule>
+			<ScheduledJob>КШДПроверкаНастройкаКонтуров</ScheduledJob>
+			<Constant>ОКТекущаяВерсияДанных</Constant>
+			<Constant>РГПутьКИсполняемомуФайлу</Constant>
+			<Constant>КШДРасположениеУзла</Constant>
+			<Catalog>РГНастройкиРепозиториев</Catalog>
 			<Enum>ТипыКонтуров</Enum>
 			<Enum>СостоянияКонтуров</Enum>
-			<Enum>Git_СпособыАвторизации</Enum>
-			<Enum>Git_ПротоколыСоединения</Enum>
-			<InformationRegister>ВыполненныеОбработчикиОбновления</InformationRegister>
-			<InformationRegister>SDS_БезопасноеХранилищеДанных</InformationRegister>
+			<Enum>РГСпособыАвторизации</Enum>
+			<Enum>РГПротоколыСоединения</Enum>
+			<DataProcessor>КШДНастройкаПодключения</DataProcessor>
+			<InformationRegister>ОКВыполненныеОбработчикиОбновления</InformationRegister>
+			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
