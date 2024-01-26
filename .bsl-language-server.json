@@ -12,6 +12,7 @@
       "SpaceAtStartComment": false,
       "LatinAndCyrillicSymbolInWord": false,
       "StyleElementConstructors": false,
+	  "UnusedLocalVariable": false,
       "ParseError": false
     }
   },
