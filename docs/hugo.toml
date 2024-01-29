@@ -18,7 +18,7 @@ enableGitInfo = true
   lastmod = ['lastmod', ':git', ':fileModTime']
   
 [permalinks]
-  posts = "/:year/:month/:day/:title/"
+  posts = "/:year/:month/:day/:slugorfilename/"
   
 [taxonomies]
   category = 'categories'

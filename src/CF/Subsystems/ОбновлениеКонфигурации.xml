@@ -16,10 +16,10 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеКонфигурацииВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТекущаяВерсияДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыполненныеОбработчикиОбновления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаОбновленияСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОКВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОКТекущаяВерсияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОКВыполненныеОбработчикиОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОКНастройкаОбновленияСервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
