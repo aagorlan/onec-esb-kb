@@ -18,6 +18,12 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КШДНастройкаПодключения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КШДРасположениеУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроОчередьСообщенийУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроРегламентныеЗадания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КШДЯдроПроверкаНастройкаКонтуров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.КШДЯдроПодключениеАктуально</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

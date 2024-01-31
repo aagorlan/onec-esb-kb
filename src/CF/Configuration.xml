@@ -267,19 +267,19 @@
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>РГПолныеПрава</CommonModule>
 			<CommonModule>КШДЯдроВызовСервера</CommonModule>
-			<CommonModule>КШДРегламентныеЗадания</CommonModule>
-			<ScheduledJob>КШДПроверкаНастройкаКонтуров</ScheduledJob>
+			<CommonModule>КШДЯдроРегламентныеЗадания</CommonModule>
+			<CommonModule>КШДЯдроСервер</CommonModule>
+			<ScheduledJob>КШДЯдроПроверкаНастройкаКонтуров</ScheduledJob>
 			<Constant>ОКТекущаяВерсияДанных</Constant>
 			<Constant>РГПутьКИсполняемомуФайлу</Constant>
 			<Constant>КШДРасположениеУзла</Constant>
 			<Catalog>РГНастройкиРепозиториев</Catalog>
-			<Enum>ТипыКонтуров</Enum>
-			<Enum>СостоянияКонтуров</Enum>
 			<Enum>РГСпособыАвторизации</Enum>
 			<Enum>РГПротоколыСоединения</Enum>
 			<DataProcessor>КШДНастройкаПодключения</DataProcessor>
 			<InformationRegister>ОКВыполненныеОбработчикиОбновления</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
+			<InformationRegister>КШДЯдроОчередьСообщенийУзла</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
