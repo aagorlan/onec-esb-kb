@@ -1,31 +1,33 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Ошибка
+about: Создать описание ошибки для возможности ее исправить
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Опишите ошибку**
+Краткое и наиболее точное описание ошибки (скопируйте его в заголовок issue).
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Способ воспроизведения**
+Для воспроизведения ошибки необходимо выполнить следующие шаги:
+1. Перейти '...'
+2. Нажать на '....'
+3. Перелистать в '....'
+4. Видим ошибку
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Ожидаемое поведение**
+Опишите что ожидаете увидить в результате описанных выше действий.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Скриншоты**
+Если применимо, разместите здесь скриншоты пользовательского интерфейса до ошибки и с ошибкой.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Win, Linux]
- - Platform version [e.g. 8.3.x]
+**Техническое окружение**
+ - ОС и ее версия: [пример Win Х, Linux дистрибутив Х версия Y]
+ - Версия платформы [пример 8.3.x]
+ - Версия гит [пример 2.43.x]
+ - Тип и версия репозитория конфигурации [пример GitHub, GitLab 16.x]
 
-**Additional context**
-Add any other context about the problem here.
+**Прочее**
+Добавьте здесь любое дополнительное описание.
