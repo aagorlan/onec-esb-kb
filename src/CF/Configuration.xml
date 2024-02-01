@@ -269,6 +269,7 @@
 			<CommonModule>КШДЯдроВызовСервера</CommonModule>
 			<CommonModule>КШДЯдроРегламентныеЗадания</CommonModule>
 			<CommonModule>КШДЯдроСервер</CommonModule>
+			<CommonModule>КШДЯдроВызовСервераПовтИсп</CommonModule>
 			<ScheduledJob>КШДЯдроПроверкаНастройкаКонтуров</ScheduledJob>
 			<Constant>ОКТекущаяВерсияДанных</Constant>
 			<Constant>РГПутьКИсполняемомуФайлу</Constant>
@@ -276,10 +277,13 @@
 			<Catalog>РГНастройкиРепозиториев</Catalog>
 			<Enum>РГСпособыАвторизации</Enum>
 			<Enum>РГПротоколыСоединения</Enum>
+			<Enum>КШДЯдроКлючиКэшаНастроек</Enum>
+			<Enum>КШДЯдроТипыХранимыхЗначений</Enum>
 			<DataProcessor>КШДНастройкаПодключения</DataProcessor>
 			<InformationRegister>ОКВыполненныеОбработчикиОбновления</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>КШДЯдроОчередьСообщенийУзла</InformationRegister>
+			<InformationRegister>КШДЯдроКэшНастроек</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
