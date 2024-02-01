@@ -27,6 +27,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроКэшНастроек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроКлючиКэшаНастроек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроТипыХранимыхЗначений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.КШДЯдроПроверкаНастройкаКонтуров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.КШДЯдро</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроВызовСервераПовтИсп</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -260,6 +260,10 @@
 			<Subsystem>ФункцииБСП</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
 			<SessionParameter>КШДЯдроПодключениеАктуально</SessionParameter>
+			<Role>КШДЯдроПроверкаНастройкаКонтуров</Role>
+			<Role>ПолныеПрава</Role>
+			<Role>КШДЯдро</Role>
+			<Role>РГОснновнаяРоль</Role>
 			<CommonModule>ОКВызовСервера</CommonModule>
 			<CommonModule>ОКНастройкаОбновленияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
