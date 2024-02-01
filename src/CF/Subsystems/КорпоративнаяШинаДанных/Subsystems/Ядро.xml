@@ -24,6 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КШДЯдроПроверкаНастройкаКонтуров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.КШДЯдроПодключениеАктуально</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроКэшНастроек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроКлючиКэшаНастроек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроТипыХранимыхЗначений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
