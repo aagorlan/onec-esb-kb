@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РГПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.РГСпособыАвторизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.РГПротоколыСоединения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РГОснновнаяРоль</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
