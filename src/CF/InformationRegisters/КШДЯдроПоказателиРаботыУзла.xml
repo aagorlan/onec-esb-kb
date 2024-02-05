@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="a4fc28c6-7377-4664-8561-c5913fa03710">
+	<InformationRegister uuid="f474d078-aa71-430a-b1c0-0f4f07a80b76">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КШДЯдроОчередьСообщенийУзла" category="Record">
-				<xr:TypeId>165db194-d946-4022-8d3b-5d2d2b797c98</xr:TypeId>
-				<xr:ValueId>b2c2b843-81d3-4d72-9606-e9fb9cfce9f8</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.КШДЯдроПоказателиРаботыУзла" category="Record">
+				<xr:TypeId>a568178b-0049-491f-b65c-29c9b84f210f</xr:TypeId>
+				<xr:ValueId>5711ae04-c936-404d-a44e-fd609cfcc0fd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КШДЯдроОчередьСообщенийУзла" category="Manager">
-				<xr:TypeId>0b1e92f4-c4fe-4d7f-9b44-958ccc34f10c</xr:TypeId>
-				<xr:ValueId>c80e53a2-044e-4060-b4c2-1905e6e21149</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.КШДЯдроПоказателиРаботыУзла" category="Manager">
+				<xr:TypeId>7ddb593e-86fa-47dd-bceb-b8fc2158a273</xr:TypeId>
+				<xr:ValueId>6423b4d7-b30d-458a-9dbd-b1a2293f1746</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КШДЯдроОчередьСообщенийУзла" category="Selection">
-				<xr:TypeId>19163db6-e9cb-4449-a4b6-f42265100d2f</xr:TypeId>
-				<xr:ValueId>60506b7c-028b-4b7e-8bde-d54147df400c</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.КШДЯдроПоказателиРаботыУзла" category="Selection">
+				<xr:TypeId>53889852-f21d-49f9-8612-2958668f5d8c</xr:TypeId>
+				<xr:ValueId>ddcdac46-e96c-4b7b-af9a-c68b7f802611</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КШДЯдроОчередьСообщенийУзла" category="List">
-				<xr:TypeId>6899d380-97d6-40ea-91a4-9df2f230cf90</xr:TypeId>
-				<xr:ValueId>b71a8983-0389-4df1-af52-4335649ca59e</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.КШДЯдроПоказателиРаботыУзла" category="List">
+				<xr:TypeId>51bb443c-905c-4b0e-b3f5-fa80ef888645</xr:TypeId>
+				<xr:ValueId>b2d1a551-740d-4baa-a0d8-cc52068ac7a4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КШДЯдроОчередьСообщенийУзла" category="RecordSet">
-				<xr:TypeId>ff7f0d82-d38c-43db-b4a0-5b14f648ccec</xr:TypeId>
-				<xr:ValueId>2beea926-9bbe-446a-ab62-46733fc5c021</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КШДЯдроПоказателиРаботыУзла" category="RecordSet">
+				<xr:TypeId>80162642-e2d1-4554-9fe7-ffe1da85064e</xr:TypeId>
+				<xr:ValueId>b1f706fe-dd10-45cd-b92d-debc449672aa</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КШДЯдроОчередьСообщенийУзла" category="RecordKey">
-				<xr:TypeId>a6f171da-d409-489f-9960-a7afeacaef0c</xr:TypeId>
-				<xr:ValueId>4bee0cc0-c881-426e-aef2-956a4a06c782</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КШДЯдроПоказателиРаботыУзла" category="RecordKey">
+				<xr:TypeId>3d6abdcc-974d-43cd-9e9b-53218419ad8a</xr:TypeId>
+				<xr:ValueId>655ec8cd-3038-41ad-a378-7ce452cc5a30</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КШДЯдроОчередьСообщенийУзла" category="RecordManager">
-				<xr:TypeId>545c9a77-c3bc-4be8-be49-c5a4c64dc1ba</xr:TypeId>
-				<xr:ValueId>b6763b76-6bf4-4068-a21e-b147da1d7208</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КШДЯдроПоказателиРаботыУзла" category="RecordManager">
+				<xr:TypeId>5d111011-e272-42b2-bb1e-2460d0b2b4f8</xr:TypeId>
+				<xr:ValueId>3a309b09-d536-4c58-bd97-125b7b88c8c2</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КШДЯдроОчередьСообщенийУзла</Name>
+			<Name>КШДЯдроПоказателиРаботыУзла</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>(КШД) Очередь сообщений узла</v8:content>
+					<v8:content>(КШД) Показатели работы узла</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -46,9 +46,9 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
@@ -64,21 +64,21 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="a1a08521-b7a1-496e-831f-fabc728fcb5d">
+			<Resource uuid="4a9febc9-e8f0-4b3c-8bd2-3cca87712e63">
 				<Properties>
-					<Name>ДатаЗаписи</Name>
+					<Name>Число</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата записи</v8:content>
+							<v8:content>Число</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>20</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>4</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -103,68 +103,25 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>Index</Indexing>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="085b078a-77fe-48bb-ae00-261e47b629cd">
+			<Resource uuid="7ef76ccf-7be7-442d-81c5-12b42a5c7e32">
 				<Properties>
-					<Name>Контур</Name>
+					<Name>Строка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контур</v8:content>
+							<v8:content>Строка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>Index</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Resource uuid="110523dc-a043-4a80-a280-84a8bb099e64">
-				<Properties>
-					<Name>Пакет</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пакет</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
+							<v8:Length>1024</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -194,23 +151,21 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Attribute uuid="5db33ff2-4a1d-47d4-9d27-6d066745e689">
+			<Resource uuid="56249568-77f3-4b24-8c51-e20d7d031921">
 				<Properties>
-					<Name>ВОбработке</Name>
+					<Name>Дата</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В обработке</v8:content>
+							<v8:content>Дата</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>20</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -237,23 +192,19 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
-			<Dimension uuid="2481d3d7-0b69-4e23-8921-3e4b2e68eb68">
+			</Resource>
+			<Resource uuid="10ddc4cf-f697-48a4-81fc-54f002b89255">
 				<Properties>
-					<Name>ИдентификаторСервиса</Name>
+					<Name>Булево</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор сервиса</v8:content>
+							<v8:content>Булево</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>36</v8:Length>
-							<v8:AllowedLength>Fixed</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -266,7 +217,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string">                                    </FillValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -276,30 +227,23 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>false</Master>
-					<MainFilter>true</MainFilter>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Dimension>
-			<Dimension uuid="874ec9a7-88a0-42c6-9ddc-239bd6056ffb">
+			</Resource>
+			<Dimension uuid="acac088c-1fc1-46d5-be9b-a2527f39226c">
 				<Properties>
-					<Name>ИдентификаторСообщения</Name>
+					<Name>Показатель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор сообщения</v8:content>
+							<v8:content>Показатель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>36</v8:Length>
-							<v8:AllowedLength>Fixed</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.КШДЯдроПоказателиРаботыУзла</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -312,7 +256,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string">                                    </FillValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -325,7 +269,53 @@
 					<Master>false</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
-					<Indexing>Index</Indexing>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ea7ccfc0-5dbf-4c16-8688-c78e46bdad09">
+				<Properties>
+					<Name>Аналитика</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аналитика</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>

@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="a4fc28c6-7377-4664-8561-c5913fa03710">
+	<InformationRegister uuid="54161b17-5de7-43fb-ae5a-59328379713f">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КШДЯдроОчередьСообщенийУзла" category="Record">
-				<xr:TypeId>165db194-d946-4022-8d3b-5d2d2b797c98</xr:TypeId>
-				<xr:ValueId>b2c2b843-81d3-4d72-9606-e9fb9cfce9f8</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.КШДЯдроЛогОчередиУзла" category="Record">
+				<xr:TypeId>234eef07-9be8-4c55-80b5-8d1bbe6d077d</xr:TypeId>
+				<xr:ValueId>ad737b2b-b34e-4153-b65d-474100709ee4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КШДЯдроОчередьСообщенийУзла" category="Manager">
-				<xr:TypeId>0b1e92f4-c4fe-4d7f-9b44-958ccc34f10c</xr:TypeId>
-				<xr:ValueId>c80e53a2-044e-4060-b4c2-1905e6e21149</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.КШДЯдроЛогОчередиУзла" category="Manager">
+				<xr:TypeId>fa10edae-289f-4fe3-acf5-d0870fe40e8c</xr:TypeId>
+				<xr:ValueId>a15a820b-1c75-4a2a-a90b-a33707f82c40</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КШДЯдроОчередьСообщенийУзла" category="Selection">
-				<xr:TypeId>19163db6-e9cb-4449-a4b6-f42265100d2f</xr:TypeId>
-				<xr:ValueId>60506b7c-028b-4b7e-8bde-d54147df400c</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.КШДЯдроЛогОчередиУзла" category="Selection">
+				<xr:TypeId>5bee2bae-52d8-4c5a-ad2c-098e7eac5d51</xr:TypeId>
+				<xr:ValueId>aa09a888-e5e9-43fd-b1e2-eb512544bd0e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КШДЯдроОчередьСообщенийУзла" category="List">
-				<xr:TypeId>6899d380-97d6-40ea-91a4-9df2f230cf90</xr:TypeId>
-				<xr:ValueId>b71a8983-0389-4df1-af52-4335649ca59e</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.КШДЯдроЛогОчередиУзла" category="List">
+				<xr:TypeId>f32ede5e-7c95-4790-ab55-b41e9099cfd1</xr:TypeId>
+				<xr:ValueId>7c596c11-3bf1-4ff2-9c87-07c20d87e16e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КШДЯдроОчередьСообщенийУзла" category="RecordSet">
-				<xr:TypeId>ff7f0d82-d38c-43db-b4a0-5b14f648ccec</xr:TypeId>
-				<xr:ValueId>2beea926-9bbe-446a-ab62-46733fc5c021</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КШДЯдроЛогОчередиУзла" category="RecordSet">
+				<xr:TypeId>359f2ac9-4bb9-46c3-971d-15518252fe4c</xr:TypeId>
+				<xr:ValueId>ecef58fc-a466-43e6-b8b3-cb8c7f0ce5ca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КШДЯдроОчередьСообщенийУзла" category="RecordKey">
-				<xr:TypeId>a6f171da-d409-489f-9960-a7afeacaef0c</xr:TypeId>
-				<xr:ValueId>4bee0cc0-c881-426e-aef2-956a4a06c782</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КШДЯдроЛогОчередиУзла" category="RecordKey">
+				<xr:TypeId>24c49f3d-28ec-4e04-8968-3f1a6f1926a1</xr:TypeId>
+				<xr:ValueId>1bdc25be-e190-47eb-ba84-157d20f29595</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КШДЯдроОчередьСообщенийУзла" category="RecordManager">
-				<xr:TypeId>545c9a77-c3bc-4be8-be49-c5a4c64dc1ba</xr:TypeId>
-				<xr:ValueId>b6763b76-6bf4-4068-a21e-b147da1d7208</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КШДЯдроЛогОчередиУзла" category="RecordManager">
+				<xr:TypeId>cab6fda1-cd67-46ee-b231-9db75c7ddb8c</xr:TypeId>
+				<xr:ValueId>2db42c96-d0ef-4fff-b1d9-9d4bf2d1ea9d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КШДЯдроОчередьСообщенийУзла</Name>
+			<Name>КШДЯдроЛогОчередиУзла</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>(КШД) Очередь сообщений узла</v8:content>
+					<v8:content>(КШД) Лог очереди узла</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -64,23 +64,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="a1a08521-b7a1-496e-831f-fabc728fcb5d">
+			<Resource uuid="b86029ad-27c7-4d95-acd4-319fde0e56af">
 				<Properties>
-					<Name>ДатаЗаписи</Name>
+					<Name>Событие</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Дата записи</v8:content>
+							<v8:content>Событие</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>20</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:EnumRef.КШДЯдроВидыСобытий</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -103,61 +98,18 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>Index</Indexing>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="085b078a-77fe-48bb-ae00-261e47b629cd">
+			<Resource uuid="876bfa18-9569-4f9a-b324-3a9018c5e0f4">
 				<Properties>
-					<Name>Контур</Name>
+					<Name>Ошибка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контур</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>Index</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
-			<Resource uuid="110523dc-a043-4a80-a280-84a8bb099e64">
-				<Properties>
-					<Name>Пакет</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Пакет</v8:content>
+							<v8:content>Ошибка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -194,13 +146,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Attribute uuid="5db33ff2-4a1d-47d4-9d27-6d066745e689">
+			<Dimension uuid="064b7e8b-3eb4-406e-91ba-af61d9d963a9">
 				<Properties>
-					<Name>ВОбработке</Name>
+					<Name>ДатаСобытия</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>В обработке</v8:content>
+							<v8:content>Дата события</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -233,12 +185,15 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
-			<Dimension uuid="2481d3d7-0b69-4e23-8921-3e4b2e68eb68">
+			</Dimension>
+			<Dimension uuid="4f432bcd-5727-4ea4-99e4-8474a1ff91d7">
 				<Properties>
 					<Name>ИдентификаторСервиса</Name>
 					<Synonym>
@@ -284,7 +239,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="874ec9a7-88a0-42c6-9ddc-239bd6056ffb">
+			<Dimension uuid="08be6946-7c59-467d-87d8-ab2b9378f376">
 				<Properties>
 					<Name>ИдентификаторСообщения</Name>
 					<Synonym>

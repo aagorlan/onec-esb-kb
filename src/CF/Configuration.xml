@@ -259,7 +259,6 @@
 			<Subsystem>РепозиторийGit</Subsystem>
 			<Subsystem>ФункцииБСП</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
-			<SessionParameter>КШДЯдроПодключениеАктуально</SessionParameter>
 			<Role>КШДЯдроПроверкаНастройкаКонтуров</Role>
 			<Role>ПолныеПрава</Role>
 			<Role>КШДЯдро</Role>
@@ -274,20 +273,31 @@
 			<CommonModule>КШДЯдроРегламентныеЗадания</CommonModule>
 			<CommonModule>КШДЯдроСервер</CommonModule>
 			<CommonModule>КШДЯдроВызовСервераПовтИсп</CommonModule>
+			<CommonModule>КШДЯдроСерверПереопределяемый</CommonModule>
+			<CommonModule>КШДДемоСервис</CommonModule>
 			<ScheduledJob>КШДЯдроПроверкаНастройкаКонтуров</ScheduledJob>
+			<ScheduledJob>КШДЯдроКонтрольСервисовУзла</ScheduledJob>
+			<ScheduledJob>КШДЯдроЧтениеДанныхОчереди</ScheduledJob>
+			<ScheduledJob>КШДЯдроСборПоказателейРаботыУзла</ScheduledJob>
 			<Constant>ОКТекущаяВерсияДанных</Constant>
 			<Constant>РГПутьКИсполняемомуФайлу</Constant>
 			<Constant>КШДРасположениеУзла</Constant>
+			<Constant>КШДДемоСервисЗацикливать</Constant>
 			<Catalog>РГНастройкиРепозиториев</Catalog>
+			<Catalog>КШДЯдроПоказателиРаботыУзла</Catalog>
 			<Enum>РГСпособыАвторизации</Enum>
 			<Enum>РГПротоколыСоединения</Enum>
 			<Enum>КШДЯдроКлючиКэшаНастроек</Enum>
 			<Enum>КШДЯдроТипыХранимыхЗначений</Enum>
+			<Enum>КШДЯдроВидыСобытий</Enum>
 			<DataProcessor>КШДНастройкаПодключения</DataProcessor>
 			<InformationRegister>ОКВыполненныеОбработчикиОбновления</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>КШДЯдроОчередьСообщенийУзла</InformationRegister>
 			<InformationRegister>КШДЯдроКэшНастроек</InformationRegister>
+			<InformationRegister>КШДЯдроСостояниеСервисовУзла</InformationRegister>
+			<InformationRegister>КШДЯдроЛогОчередиУзла</InformationRegister>
+			<InformationRegister>КШДЯдроПоказателиРаботыУзла</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
