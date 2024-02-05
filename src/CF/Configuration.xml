@@ -263,6 +263,10 @@
 			<Role>ПолныеПрава</Role>
 			<Role>КШДЯдро</Role>
 			<Role>РГОснновнаяРоль</Role>
+			<Role>КШДЯдроКонтрольСервисовУзла</Role>
+			<Role>КШДЯдроЧтениеДанныхОчереди</Role>
+			<Role>КШДЯдроСборПоказателейРаботыУзла</Role>
+			<Role>КШДЯдроСверткаПоказателейРаботы</Role>
 			<CommonModule>ОКВызовСервера</CommonModule>
 			<CommonModule>ОКНастройкаОбновленияСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
@@ -279,6 +283,7 @@
 			<ScheduledJob>КШДЯдроКонтрольСервисовУзла</ScheduledJob>
 			<ScheduledJob>КШДЯдроЧтениеДанныхОчереди</ScheduledJob>
 			<ScheduledJob>КШДЯдроСборПоказателейРаботыУзла</ScheduledJob>
+			<ScheduledJob>КШДЯдроСверткаПоказателейРаботы</ScheduledJob>
 			<Constant>ОКТекущаяВерсияДанных</Constant>
 			<Constant>РГПутьКИсполняемомуФайлу</Constant>
 			<Constant>КШДРасположениеУзла</Constant>
