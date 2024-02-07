@@ -213,6 +213,214 @@
 								</Page>
 							</ChildItems>
 						</Pages>
+						<UsualGroup name="ПанельСервисов" id="196">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель сервисов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Панель сервисов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПанельСервисовРасширеннаяПодсказка" id="197"/>
+							<ChildItems>
+								<Button name="СписокСервисовВключитьСервис" id="190">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ВключитьСервис</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.AppearanceCheckBox</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СписокСервисовВключитьСервисРасширеннаяПодсказка" id="191"/>
+								</Button>
+								<Button name="СписокСервисовОтключитьСервис" id="192">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.ОтключитьСервис</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.AppearanceCross</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СписокСервисовОтключитьСервисРасширеннаяПодсказка" id="193"/>
+								</Button>
+								<Button name="СписокСервисовОбновить" id="194">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.Обновить</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Refresh</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СписокСервисовОбновитьРасширеннаяПодсказка" id="195"/>
+								</Button>
+								<Button name="СписокСервисовАвтообновление" id="198">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>Form.Command.Автообновление</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.History</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="СписокСервисовАвтообновлениеРасширеннаяПодсказка" id="199"/>
+								</Button>
+								<Button name="СписокСервисовУстановитьКоличествоПотоков" id="211">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.УстановитьКоличествоПотоков</CommandName>
+									<ExtendedTooltip name="СписокСервисовУстановитьКоличествоПотоковРасширеннаяПодсказка" id="212"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="СписокСервисов" id="162">
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<HeightInTableRows>2</HeightInTableRows>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>СписокСервисов</DataPath>
+							<RowPictureDataPath>~СписокСервисов.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>ListSettings</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>Refresh</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокСервисовКонтекстноеМеню" id="163"/>
+							<AutoCommandBar name="СписокСервисовКоманднаяПанель" id="164"/>
+							<ExtendedTooltip name="СписокСервисовРасширеннаяПодсказка" id="165"/>
+							<SearchStringAddition name="СписокСервисовСтрокаПоиска" id="166">
+								<AdditionSource>
+									<Item>СписокСервисов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСервисовСтрокаПоискаКонтекстноеМеню" id="167"/>
+								<ExtendedTooltip name="СписокСервисовСтрокаПоискаРасширеннаяПодсказка" id="168"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСервисовСостояниеПросмотра" id="169">
+								<AdditionSource>
+									<Item>СписокСервисов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСервисовСостояниеПросмотраКонтекстноеМеню" id="170"/>
+								<ExtendedTooltip name="СписокСервисовСостояниеПросмотраРасширеннаяПодсказка" id="171"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокСервисовУправлениеПоиском" id="172">
+								<AdditionSource>
+									<Item>СписокСервисов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСервисовУправлениеПоискомКонтекстноеМеню" id="173"/>
+								<ExtendedTooltip name="СписокСервисовУправлениеПоискомРасширеннаяПодсказка" id="174"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="СписокСервисовВключен" id="175">
+									<DataPath>СписокСервисов.Включен</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HeaderPicture>
+										<xr:Ref>StdPicture.ReportSettings</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СписокСервисовВключенКонтекстноеМеню" id="176"/>
+									<ExtendedTooltip name="СписокСервисовВключенРасширеннаяПодсказка" id="177"/>
+								</CheckBoxField>
+								<LabelField name="СписокСервисовНаименование" id="187">
+									<DataPath>СписокСервисов.Наименование</DataPath>
+									<ContextMenu name="СписокСервисовНаименованиеКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="СписокСервисовНаименованиеРасширеннаяПодсказка" id="189"/>
+								</LabelField>
+								<ColumnGroup name="СписокСервисовГруппа1" id="203">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Потоков</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="СписокСервисовГруппа1РасширеннаяПодсказка" id="204"/>
+									<ChildItems>
+										<LabelField name="СписокСервисовКоличествоПотоков" id="181">
+											<DataPath>СписокСервисов.КоличествоПотоков</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Максимум</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СписокСервисовКоличествоПотоковКонтекстноеМеню" id="182"/>
+											<ExtendedTooltip name="СписокСервисовКоличествоПотоковРасширеннаяПодсказка" id="183"/>
+										</LabelField>
+										<LabelField name="СписокСервисовПотоковИспользуется" id="205">
+											<DataPath>СписокСервисов.ПотоковИспользуется</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Используется</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СписокСервисовПотоковИспользуетсяКонтекстноеМеню" id="206"/>
+											<ExtendedTooltip name="СписокСервисовПотоковИспользуетсяРасширеннаяПодсказка" id="207"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="СписокСервисовМетод" id="184">
+									<DataPath>СписокСервисов.Метод</DataPath>
+									<ContextMenu name="СписокСервисовМетодКонтекстноеМеню" id="185"/>
+									<ExtendedTooltip name="СписокСервисовМетодРасширеннаяПодсказка" id="186"/>
+								</LabelField>
+								<LabelField name="СписокСервисовКоличествоСообщений" id="208">
+									<DataPath>СписокСервисов.КоличествоСообщений</DataPath>
+									<ContextMenu name="СписокСервисовКоличествоСообщенийКонтекстноеМеню" id="209"/>
+									<ExtendedTooltip name="СписокСервисовКоличествоСообщенийРасширеннаяПодсказка" id="210"/>
+								</LabelField>
+								<LabelField name="СписокСервисовСкоростьЧтения" id="200">
+									<DataPath>СписокСервисов.СкоростьЧтения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Чтение (сообщ/сек)</v8:content>
+										</v8:item>
+									</Title>
+									<Width>21</Width>
+									<ContextMenu name="СписокСервисовСкоростьЧтенияКонтекстноеМеню" id="201"/>
+									<ExtendedTooltip name="СписокСервисовСкоростьЧтенияРасширеннаяПодсказка" id="202"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
 					</ChildItems>
 				</Page>
 				<Page name="ПодключениеККШД" id="26">
@@ -1057,6 +1265,188 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="СписокСервисов" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список сервисов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>СписокСервисов.Идентификатор</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	КШДЯдроЛогОчередиУзла.ИдентификаторСервиса КАК ИдентификаторСервиса,
+	СУММА(1) КАК Количество,
+	МИНИМУМ(КШДЯдроЛогОчередиУзла.ДатаСобытия) КАК Мин,
+	МАКСИМУМ(КШДЯдроЛогОчередиУзла.ДатаСобытия) КАК Макс,
+	(МАКСИМУМ(КШДЯдроЛогОчередиУзла.ДатаСобытия) - МИНИМУМ(КШДЯдроЛогОчередиУзла.ДатаСобытия)) / 1000 КАК Разница
+ПОМЕСТИТЬ КоличествоЗаМинуту
+ИЗ
+	РегистрСведений.КШДЯдроЛогОчередиУзла КАК КШДЯдроЛогОчередиУзла
+ГДЕ
+	КШДЯдроЛогОчередиУзла.ДатаСобытия &gt;= &amp;ТекущееВремя - 1000 * 60
+	И КШДЯдроЛогОчередиУзла.Событие = ЗНАЧЕНИЕ(Перечисление.КШДЯдроВидыСобытий.Чтение)
+
+СГРУППИРОВАТЬ ПО
+	КШДЯдроЛогОчередиУзла.ИдентификаторСервиса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РегистрСведенийКШДЯдроСостояниеСервисовУзла.Идентификатор КАК Идентификатор,
+	РегистрСведенийКШДЯдроСостояниеСервисовУзла.Наименование КАК Наименование,
+	РегистрСведенийКШДЯдроСостояниеСервисовУзла.Метод КАК Метод,
+	РегистрСведенийКШДЯдроСостояниеСервисовУзла.КоличествоПотоков КАК КоличествоПотоков,
+	РегистрСведенийКШДЯдроСостояниеСервисовУзла.Включен КАК Включен,
+	ПотоковИспользуется.Число КАК ПотоковИспользуется,
+	КоличествоСообщений.Число КАК КоличествоСообщений,
+	ВЫБОР
+		КОГДА КоличествоЗаМинуту.Разница = 0
+			ТОГДА 0
+		ИНАЧЕ КоличествоЗаМинуту.Количество / КоличествоЗаМинуту.Разница
+	КОНЕЦ КАК СкоростьЧтения
+ИЗ
+	РегистрСведений.КШДЯдроСостояниеСервисовУзла КАК РегистрСведенийКШДЯдроСостояниеСервисовУзла
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КШДЯдроПоказателиРаботыУзла.СрезПоследних КАК ПотоковИспользуется
+		ПО РегистрСведенийКШДЯдроСостояниеСервисовУзла.Идентификатор = ПотоковИспользуется.Аналитика
+			И (ПотоковИспользуется.Показатель = ЗНАЧЕНИЕ(Справочник.КШДЯдроПоказателиРаботыУзла.ИспользованныеПотокиСервиса))
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КШДЯдроПоказателиРаботыУзла.СрезПоследних КАК КоличествоСообщений
+		ПО РегистрСведенийКШДЯдроСостояниеСервисовУзла.Идентификатор = КоличествоСообщений.Аналитика
+			И (КоличествоСообщений.Показатель = ЗНАЧЕНИЕ(Справочник.КШДЯдроПоказателиРаботыУзла.СообщенийВОчереди))
+		ЛЕВОЕ СОЕДИНЕНИЕ КоличествоЗаМинуту КАК КоличествоЗаМинуту
+		ПО РегистрСведенийКШДЯдроСостояниеСервисовУзла.Идентификатор = КоличествоЗаМинуту.ИдентификаторСервиса</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Показатель</dcssch:dataPath>
+					<dcssch:field>Показатель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Аналитика</dcssch:dataPath>
+					<dcssch:field>Аналитика</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Включен</dcssch:dataPath>
+					<dcssch:field>Включен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Идентификатор</dcssch:dataPath>
+					<dcssch:field>Идентификатор</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоПотоков</dcssch:dataPath>
+					<dcssch:field>КоличествоПотоков</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПотоковИспользуется</dcssch:dataPath>
+					<dcssch:field>ПотоковИспользуется</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Потоков используется</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Метод</dcssch:dataPath>
+					<dcssch:field>Метод</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СкоростьЧтения</dcssch:dataPath>
+					<dcssch:field>СкоростьЧтения</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скорость чтения</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоСообщений</dcssch:dataPath>
+					<dcssch:field>КоличествоСообщений</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество сообщений</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Parameter>
+					<dcssch:name>Период</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>false</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ТекущееВремя</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущее время</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>0</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:decimal">0</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<AutoSaveUserSettings>false</AutoSaveUserSettings>
+				<GetInvisibleFieldPresentations>false</GetInvisibleFieldPresentations>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АвтообновлениеСервисов" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автообновление сервисов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПодключитьККШД" id="1">
@@ -1088,6 +1478,81 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗавершитьПодключение</Action>
+		</Command>
+		<Command name="ВключитьСервис" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить сервис</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включить сервис</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВключитьСервис</Action>
+		</Command>
+		<Command name="ОтключитьСервис" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить сервис</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить сервис</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтключитьСервис</Action>
+		</Command>
+		<Command name="Обновить" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="Автообновление" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автообновление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автообновление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Автообновление</Action>
+		</Command>
+		<Command name="УстановитьКоличествоПотоков" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить количество потоков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить количество потоков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьКоличествоПотоков</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -23,13 +23,19 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроРегламентныеЗадания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КШДЯдроПроверкаНастройкаКонтуров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.КШДЯдроПодключениеАктуально</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроКэшНастроек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроКлючиКэшаНастроек</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроТипыХранимыхЗначений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КШДЯдроПроверкаНастройкаКонтуров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.КШДЯдро</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КШДЯдроСерверПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроСостояниеСервисовУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроЛогОчередиУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.КШДЯдроВидыСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КШДЯдроПоказателиРаботыУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КШДЯдроПоказателиРаботыУзла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.КШДЯдроСборПоказателейРаботыУзла</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
